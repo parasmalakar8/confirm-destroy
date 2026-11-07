@@ -17,6 +17,6 @@ resource "aws_instance" "practice_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "practice-server"
+    Name = "confirm-destroy"
   }
 }
